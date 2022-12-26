@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.magnus.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_buyticket"
+        android:name="com.example.magnus.ui.buyticket.BuyticketFragment"
+        android:label="Buy ticket"
+        tools:layout="@layout/fragment_buyticket" />
+    <fragment
+        android:id="@+id/nav_buypackage"
+        android:name="com.example.magnus.ui.buypackage.BuypackageFragment"
+        android:label="Buypackage"
+        tools:layout="@layout/fragment_buypackage" />
+    <fragment
+        android:id="@+id/nav_logins"
+        android:name="com.example.magnus.ui.logins.LoginsFragment"
+        android:label="Logins"
+        tools:layout="@layout/fragment_logins" />
+    <fragment
+        android:id="@+id/nav_transportinfo"
+        android:name="com.example.magnus.ui.transportinfo.TransportinfoFragment"
+        android:label="Transportinfo"
+        tools:layout="@layout/fragment_transportinfo" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="com.example.magnus.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/fragment_news" />
+    <fragment
+        android:id="@+id/nav_contactus"
+        android:name="com.example.magnus.ui.contactus.ContactusFragment"
+        android:label="contactus"
+        tools:layout="@layout/fragment_contactus" />
+    <fragment
+        android:id="@+id/nav_faq"
+        android:name="com.example.magnus.ui.faq.FaqFragment"
+        android:label="Faq"
+        tools:layout="@layout/fragment_faq" />
+</navigation>

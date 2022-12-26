@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_buyticket"
+            android:icon="@drawable/ic_menu_buyticket"
+            android:title="Buy Ticket" />
+        <item
+            android:id="@+id/nav_buypackage"
+            android:icon="@drawable/ic_menu_buypackage"
+            android:title="Buy Package" />
+        <item
+            android:id="@+id/nav_logins"
+            android:icon="@drawable/ic_menu_logins"
+            android:title="Login/SignUp" />
+        <item
+            android:id="@+id/nav_transportinfo"
+            android:icon="@drawable/ic_menu_transportinfo"
+            android:title="Transport Info" />
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_menu_news"
+            android:title="News" />
+        <item
+            android:id="@+id/nav_contactus"
+            android:icon="@drawable/ic_menu_contactus"
+            android:title="Contact us" />
+    </group>
+</menu>
